@@ -1,6 +1,6 @@
 import React from "react";
 import { createAppContainer } from "react-navigation";
 
-const Travel = () => <Text>Travel</Text>;
+import Travel from "./src/navigation/Travel";
 
 export default createAppContainer(Travel);
